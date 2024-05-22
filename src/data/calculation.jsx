@@ -1,4 +1,4 @@
-import { datas } from './data/data';
+import { datas } from '@@/data/data';
 
 const findValue = (index) => {
   return datas.find((item) => item.index === index).value;

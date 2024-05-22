@@ -1,6 +1,6 @@
 import Head from "next/head";
-import { datas } from "./data/data";
-import { category } from "./calculation";
+import { datas } from "@@/data/data";
+import { category } from "@@/data/calculation";
 
 const Home = () => {
   return (
